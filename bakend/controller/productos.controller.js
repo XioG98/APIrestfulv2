@@ -1,4 +1,4 @@
-const modeloProducto = require('../models/producto.models')
+const modeloProducto = require('../models/productos.models')
 
 exports.listarProducto =  async (req,res) => {
     let listaProducto = await modeloProducto.find();
@@ -7,3 +7,4 @@ exports.listarProducto =  async (req,res) => {
     else
         res.status(404).json({error: "No se encontraron productos"});
 }
+

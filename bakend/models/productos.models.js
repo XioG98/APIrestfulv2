@@ -1,4 +1,4 @@
-const mongoose = require('../config/config')
+const mongoose = require('../config/connection')
 
 const schemaProducto = new mongoose.Schema({
     referencia: {

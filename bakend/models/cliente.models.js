@@ -1,4 +1,4 @@
-const mongoose = require('../config/config')
+const mongoose = require('../config/connection')
 
 const schemaCliente = new mongoose.Schema({
     documento: {
