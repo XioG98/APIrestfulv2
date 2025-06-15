@@ -1,0 +1,1 @@
+const controladorProducto = require('./bakend/controller/productos.controller')
